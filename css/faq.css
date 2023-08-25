@@ -1,0 +1,115 @@
+.faq_items{
+    background: #303038;
+    border-radius: 7px;
+    border: none;
+    padding: 30px 140px 70px 140px;
+    margin-bottom: 45px;
+    
+}
+
+.faq_items .accordion-item,
+.faq_items .accordion-button{
+    background-color: transparent;
+    color: #fff;
+}
+
+.faq_items .accordion-item{
+    border-bottom: 1px solid #4a4a57;
+}
+
+.faq_items .accordion-button{
+    padding: 15px 15px 15px 60px;
+    position: relative;
+    box-shadow: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.faq_items .accordion-button::after{
+    background: none;
+    content: '+';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #03ffA4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03ffA4;
+    font-size: 20px;
+}
+
+.faq_items .accordion-button:not(.collapsed){
+    color: #03ffA4;
+}
+
+.faq_items .accordion-button:not(.collapsed)::after{
+    content: '-';
+    font-size: 40px;
+}
+
+.faq_items .accordion-body{
+    margin-left: 60px;
+    border-left: 2px solid #03ffA4;
+    padding-left: 16px;
+    color: #949494;
+    margin-bottom: 20px;
+}
+
+/* FAQ TABLE */
+.api-table{
+    background: #1E1E24;
+}
+
+.table {
+    color: #6F6F81;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.table thead tr th, .table tbody tr th {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #03FFA4;
+    padding: 10px;
+    border-top: none;
+
+}
+table.table tr{
+    border: none;
+}
+
+table.table td,
+table.table th{
+    background-color: transparent;
+    border: 1px solid #4a4a57;
+}
+.table.table thead tr th:first-child,
+.table.table tbody tr th{
+    border: none;
+    border-bottom: 1px solid #4a4a57;
+}
+
+
+table.table thead tr th:last-child,
+table.table tbody tr td:last-child{
+    border-right: none;
+}
+
+.table.table tbody tr:last-child td{
+    border-bottom: none;
+}

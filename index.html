@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- bootstrap -->
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+
+    <!-- Connecting fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Proxy1337</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+
+         <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+
+                    <!-- Header logo -->
+                  <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="">
+                  </a>
+                  
+                  <!-- mobile meni toggler -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <img src="images/media_hamburger.svg" alt="">
+                  </button>
+
+                  <!-- Open & close -->
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Faq.html">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Блог</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="errorpage.html">Панель управления</a>
+                        </li>
+                    </ul>
+
+                    <ul class="header_contact d-flex">
+                        <li>
+                            <a href="#">
+                                <img src="images/tg_header.svg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/inbox.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="hero_text">
+                            <div class="hero_title">GET A GOOD PROXY</div>
+                            <div class="hero_description">Прокси для всех. Огромный список проверенных серверов. Больше никаких долгих поисков. </div>
+
+                             <a href="#" class="button button_green " data-bs-toggle="modal" data-bs-target="#buy_modal">Купить</a>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="images/map.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aviable proxy -->
+        <section class="aviable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center gap: 20px">
+                        <div class="block_title"> <img src="images/static vector.svg" alt=""> В данный момент доступны прокси:</div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="aviable_list d-flex justify-content-end">
+                            <li>HTTP/s: <span>5332</span></li>
+                            <li>SOCKS4: <span>7181</span></li>
+                            <li>SOCKS5: <span>271</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages -->
+        <section class="advantages">
+            <div class="container">
+                <div class="row">
+
+                    <!-- advantages item -->
+                    <div class="col-md-4">
+                        <div class="advantages_item text-center">
+                            <div class="advantage_image">
+                                <img src="images/advantage1.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Актальность</div>
+                            <div class="advantage_description">Список доступных прокси обновляется каждую минуту. Вы не попадете на недействительный.</div>
+                        </div>
+                    </div>
+
+                    <!-- advantages item -->
+                    <div class="col-md-4">
+                        <div class="advantages_item text-center">
+                            <div class="advantage_image">
+                                <img src="images/advantage2.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Стоимость</div>
+                            <div class="advantage_description">Самые низкие цены за доступ к списку прокси. Скидки постоянным клиентам.</div>
+                        </div>
+                    </div>
+
+                    <!-- advantages item -->
+                    <div class="col-md-4">
+                        <div class="advantages_item text-center">
+                            <div class="advantage_image">
+                                <img src="images/advantage3.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Параметры</div>
+                            <div class="advantage_description">Настроить поиск актуальных прокси из списка можно очень гибко. Найдите лучший вариант.</div>
+                        </div>
+                    </div>
+
+                    <!-- advantages item -->
+                    <div class="col-md-4">
+                        <div class="advantages_item text-center">
+                            <div class="advantage_image">
+                                <img src="images/advantage4.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Простота</div>
+                            <div class="advantage_description">Для доступа к списку прокси не нужна регистрация. Вы получите ключ после оплаты, который и будет доступом.</div>
+                        </div>
+                    </div>
+
+                    <!-- advantages item -->
+                    <div class="col-md-4">
+                        <div class="advantages_item text-center">
+                            <div class="advantage_image">
+                                <img src="images/advantage5.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Совместимость</div>
+                            <div class="advantage_description">Использовать наши прокси вы можете в любых  сферах деятельности. Никаких ограничений нет</div>
+                        </div>
+                    </div>
+
+                    <!-- advantages item -->
+                    <div class="col-md-4">
+                        <div class="advantages_item text-center">
+                            <div class="advantage_image">
+                                <img src="images/advantage6.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Безопасность</div>
+                            <div class="advantage_description">Любые, откланяющиеся от нормы прокси удаляются из списка с периодичность в 5 минут.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- proxy types -->
+        <section class="types">
+            <div class="main_hr"></div>
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <!-- Proxy type item -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="type_item item-blue">
+                            <div class="type_image">
+                                <img src="images/proxy_type1.png" alt="">
+                            </div>
+                            <div class="type_name">Публичные прокси</div>
+                            <div class="type_description">Публичные IP-адреса со всего мира. Обновление доступов ежесекундно.Отличное решение для нетребовательных запросов.</div>
+
+                            <ul class="type_advantages">
+                                <li><a href="#">В среднем 30 тысяч IP</a></li>
+                                <li><a href="#">Гибкий выбор стран</a></li>
+                                <li><a href="#">Низкая цена</a></li>
+                                <li><a href="#">Автообновление</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                     <!-- Proxy type item -->
+                     <div class="col-lg-4 col-md-6">
+                        <div class="type_item item-orange">
+                            <div class="type_image">
+                                <img src="images/proxy_type2.png" alt="">
+                            </div>
+                            <div class="type_name">Публичные прокси</div>
+                            <div class="type_description">Публичные IP-адреса со всего мира. Обновление доступов ежесекундно.Отличное решение для нетребовательных запросов.</div>
+
+                            <ul class="type_advantages">
+                                <li><a href="#">Выдаются в одни руки</a></li>
+                                <li><a href="#">Скрытие IP-адреса</a></li>
+                                <li><a href="#">Защита и безопасность</a></li>
+                                <li><a href="#">Стабильность</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                     <!-- Proxy type item -->
+                     <div class="col-lg-4 col-md-6">
+                        <div class="type_item item-green">
+                            <div class="type_image">
+                                <img src="images/proxy_type3.png" alt="">
+                            </div>
+                            <div class="type_name">Публичные прокси</div>
+                            <div class="type_description">Публичные IP-адреса со всего мира. Обновление доступов ежесекундно.Отличное решение для нетребовательных запросов.</div>
+
+                            <ul class="type_advantages">
+                                <li><a href="#">Автосмена IP</a></li>
+                                <li><a href="#">Гибкий выбор стран</a></li>
+                                <li><a href="#">Низкая цена</a></li>
+                                <li><a href="#">Автообновление</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       <!-- countries -->
+       <section class="countries">
+        <div class="country_form">
+            <div class="container">
+                <form action="">
+                    <input type="text" placeholder="Найти страну..." class="form-control">
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="form_result">
+
+                <!-- Result item -->
+                <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/uzbekistan (3).png" alt="">Узбекистан</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/russia.png" alt="">Россия</div>
+                    <div class="country_count">11</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/kazakhstan.png" alt="">Казахстан</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/tajikistan.png" alt="">Таджикистан</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/united-states-of-america.png" alt="">США</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/australia.png" alt="">Австралия</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/united-kingdom.png" alt="">United Kingdom</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/germany.png" alt="">Германия</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/abkhazia.png" alt="">Абхазия</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/brazil-.png" alt="">Бразилия</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/india.png" alt="">Индиа</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/turkey.png" alt="">Турция</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/south-korea.png" alt="">Южный-Корея</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/vietnam.png" alt="">Ветнам</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/european.png" alt="">Европа</div>
+                    <div class="country_count">18</div>
+                </a>
+
+                 <!-- Result item -->
+                 <a href="#" class="result_item">
+                    <div class="country_name"><img src="images/thailand.png" alt="">Тайланд</div>
+                    <div class="country_count">18</div>
+                </a>
+
+
+            </div>
+
+            <div class="show_more text-center">
+                <a href="#" class="button button-outline button-big button_round item-blue">Показать больше</a>
+            </div>
+        </div>
+        </section>
+
+        <!-- buy -->
+        <section class="buy">
+            <div class="container">
+                <div class="row justify-content-around">
+                    
+                    <!-- buy Item -->
+                    <div class="col-md-3">
+                        <div class="buy_item item-blue">
+                            <div class="buy_icon">
+                                <img src="images/price_bar3.svg" alt="icon">
+                            </div>
+                            <div class="buy_description">
+                                <div class="buy_time">
+                                    <ul>
+                                        <li>Доступ на 1 день</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buy_card">
+                                <ul>
+                                    <li>50 рублей</li>
+                                </ul>
+                            </div>
+                            <div class="item-action item-blue">
+                                <a class="btn btn-outline-primary w-100" href="#">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- buy Item -->
+                    <div class="col-md-3">
+                        <div class="buy_item item-green">
+                            <div class="buy_icon">
+                                <img src="images/price_bar2.svg" alt="icon">
+                            </div>
+                            <div class="buy_description">
+                                <div class="buy_time">
+                                    <ul>
+                                        <li>Доступ на 30 дней</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buy_card">
+                                <ul>
+                                    <li>500 рублей</li>
+                                </ul>
+                            </div>
+                            <div class="item-action item-blue">
+                                <a class="btn btn-outline-success w-100" href="# ">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- buy Item -->
+                    <div class="col-md-3">
+                        <div class="buy_item item-orange">
+                            <div class="buy_icon">
+                                <img src="images/price_bar1.svg" alt="icon">
+                            </div>
+                            <div class="buy_description">
+                                <div class="buy_time">
+                                    <ul>
+                                        <li>Доступ на 60 дней</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buy_card">
+                                <ul>
+                                    <li>480 рублей</li>
+                                </ul>
+                            </div>
+                            <div class="item-action item-blue">
+                                <a class="btn btn-outline-warning w-100" href="# ">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment -->
+        <section class="payment">
+            <div class="container">
+                    <div class=" payment_block d-flex justify-content-between align-items-center">
+
+                        <!-- Payment item -->
+                        <div class="payment_item">
+                          <a href="https://www.webmoney.ru/?%01" class="pay"><img src="images/wb.png" alt=""></a>
+                        </div>
+  
+                      
+                        <!-- Payment item -->
+                        <div class="payment_item">
+                          <a href="https://qiwi.com/" class="pay"><img src="images/QW.png" alt=""></a>
+                        </div>
+  
+                      
+                        <!-- Payment item -->
+                        <div class="payment_item">
+                          <a href="https://yoomoney.ru/" class="pay"><img src="images/yn.png" alt=""></a>
+                        </div>
+  
+                      
+                        <!-- Payment item -->
+                        <div class="payment_item">
+                          <a href="#" class="pay"><img src="images/vISA.png" alt=""></a>
+                        </div>
+  
+                      
+                        <!-- Payment item -->
+                        <div class="payment_item">
+                          <a href="#" class="pay"><img src="images/MASTER.png" alt=""></a>
+                        </div>
+                    </div>
+            </div>
+                
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <a href="#" class="logo">
+                                <img src="images/footer_logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="contact">
+                            <div class="mail">
+                                <a href="mailto:support@mail.ru">
+                                    <img src="images/footer massage.png" alt="">support@mail.ru
+                                </a>
+                            </div>
+            
+                            <div class="telegram">
+                                <a href="">
+                                    <img src="images/footer send.png" alt="">@supportproxy
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-md-4">
+                        <div class="list">
+                            <ul>
+                                <li><a href="">Цены / Купить</a></li>
+                                <li><a href="">Статистика</a></li>
+                                <li><a href="">Условия использования</a></li>
+                                <li><a href="">Политика конфиденциальности</a></li>
+                                <li><a href="">Вопросы и ответы</a></li>
+                                <li><a href="">База знаний о прокси</a></li>
+                                <li><a href="">Описание API</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="about">
+                            <h6>proxy1337 - обновляемый список проверенных прокси. Рабоаем с 2019 года. Все права защищены!</h6>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        <p>© 2019 - 2020 Proxy1337.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+     <!-- Modal  buy Modal -->
+    <div class="modal fade" id="buy_modal" tabindex="-1" aria-labelledby="buy_modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <form action="">
+                    
+                    <div class="modal_action">
+
+                        <button type="reset">
+                            <img src="images/modal_reset.svg" alt="">
+                        </button>  
+                        <button type="button" data-bs-dismiss="modal" arial-label="Close">
+                            <img src="images/modal_close.svg" alt="">
+                        </button>
+
+                    </div>
+
+                    <div class="modal_title">Купить ключ</div>
+                    <div class="input_item">
+                        <input type="email" placeholder="Email" name="email" class="form-control">
+                    </div>
+
+                    <div class="input_item">
+                        <input type="text" placeholder="Способ оплаты" name="payment_type" class="form-control">
+                    </div>
+
+                    <div class="input_item payment_duration">
+                        <label for="">99 дней</label>
+                        <input type="range" name="payment_duration" class="">
+                    </div>
+
+                    <div class="input_item agreement">
+                        <label>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            <span class="agreement_text">Согласен с <a href="#">условиями использования</a></span>
+                        </label>
+                    </div>
+
+                    <div class="input_item_day">
+                        Вы выбрали пакет <span>6</span> р в день
+                    </div>
+
+                    <div class="input_item_buy_total_sum">
+                        К оплате <span>660₽</span>
+                    </div>
+
+                    <div class="input_item">
+                        <button class="button button_green w-100">Оплатить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- bootstrap Js -->
+<script src="libs/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

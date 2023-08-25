@@ -1,0 +1,23 @@
+.inner_page .block_breadcrumbs{
+    margin-bottom: 110px;
+}
+
+.inner_page .control_title{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 73px;
+    color: #949494;
+    
+}
+
+.btn-dark {
+    background: #27272D;
+    padding: 14px 125px;
+    color: #949494;
+}
+
+.btn-dark:hover{
+    background: #27272D;
+    color: #949494;
+}

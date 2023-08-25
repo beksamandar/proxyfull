@@ -1,0 +1,110 @@
+.blog_img{
+    background-image: url(../images/blog_logo.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 62px 0;
+}
+
+.blog_img .title_one{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: #23FF7B;
+    margin-bottom: 10px;
+}
+
+.blog_img .title_two{
+    color: #9E9CFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+
+.accordion-header{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    background: #27272D;
+  
+  
+}
+
+.blog_img{
+    margin-bottom: 29px;
+}
+
+.blog_items{
+    background: #303038;
+    border-radius: 7px;
+    border: none;
+    /* padding: 23px 51px 16px 23px; */
+    margin-bottom: 45px;
+    
+}
+
+.blog_items .accordion-item,
+.blog_items .accordion-button{
+    background-color: transparent;
+    color: #fff;
+}
+
+.blog_items .accordion-item{
+    border-bottom: 1px solid #4a4a57;
+}
+
+.blog_items .accordion-button{
+    padding: 15px 15px 15px 60px;
+    position: relative;
+    box-shadow: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    
+}
+
+.blog_items .accordion-button::after{
+    /* background: none;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03ffA4;
+    font-size: 20px;
+    background-image: url(../images/blog_down.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    --bs-accordion-btn-icon-transform: rotate(180deg);
+    
+}
+
+.blog_items .accordion-button:not(.collapsed){
+    color: #03ffA4;
+    
+}
+
+.blog_items .accordion-button:not(.collapsed)::after{
+    content: '';
+    font-size: 40px;
+}
+
+.blog_items .accordion-body{
+    margin-left: 60px;
+    border-left: 2px solid #03ffA4;
+    padding-left: 16px;
+    color: #949494;
+    margin-bottom: 20px;
+    
+}
